@@ -1,0 +1,164 @@
+body {
+	background-color: #7B9CAC;
+	margin: 0;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+}
+a img { 
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+.header{
+	width: 1350px;
+	margin: 0 auto;
+	background-color: white;
+	height: 100px;
+}
+.logo {
+	width: 195px;
+	float:left;
+	margin: 0 auto;
+	padding-left: 30px;
+}
+.headertext{
+	width: 710px;
+	height: 70px;
+	float:left;
+	vertical-align: middle;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.social_logo{
+	float: right;
+	height: 100px;
+}
+
+.container {
+	width: 1160px;
+	background-color: #FFF;
+	margin: 0 auto; 
+	height: 780px;
+}
+
+.leftsidebar {
+	float: left;
+	width: 200px;
+	padding-bottom: 10px;
+	height: 659px;
+	background: white;
+}
+
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #666; 
+}
+ul.nav li {
+	border-bottom: 1px solid #666; 
+}
+ul.nav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 180px;
+	text-decoration: none;
+	background-color: rgba(91, 198, 224, 0.56);
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background-color: #0C5793;
+	color: #FFF;
+}
+
+.contactinfo { 
+	padding-left:10px;
+}
+
+.content {
+	padding-top: 30px;
+	float: left;
+	width: 780px;
+	padding-left: 30px;
+}
+.content h1{
+	color : blue;
+}
+.content ul,ol{
+	padding-left:30px;
+}
+.myphoto{
+	padding: 20px;
+	float:right;
+}
+
+.footer {
+	font-size: 13px;
+	padding: 15px 0;
+	background-color: #0CF;
+	position: relative;
+	clear: both;
+}
+#svg1{
+	stop-color:rgb(0, 255, 0);
+	stop-opacity:1;
+	
+}
+#svg2{
+	
+	stop-color:rgb(255, 255, 0);
+	stop-opacity:1;
+}
+
+#font_size {
+	
+	
+	
+    font-size: 45;
+    font-family: Verdana;
+}
+
+.clearhorizontal{
+	clear: both;
+	background:  #7B9CAC;
+	height: 15px;
+	border:0 none;
+}
+.clearvertical{
+	float: left;
+	background: #7B9CAC;
+	width: 15px;
+	height: 780px;
+}
+.clearfloat { 
+	clear:both;
+}
+
+.input, textarea, select { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	font: 13px;
+	width: 200px;
+	background: #FFFFFF;
+}
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
